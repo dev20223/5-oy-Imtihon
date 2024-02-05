@@ -134,3 +134,8 @@ oceania && oceania.addEventListener('click', function() {
             console.log(err);
         })
 })
+
+AmagiLoader.show();
+ setTimeout(() => {
+    AmagiLoader.hide();
+ }, 3000);
